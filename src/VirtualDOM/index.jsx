@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function VirtualDOM() {
+const VirtualDOM = () => {
   const [list, setList] = useState(["1", "2", "3", "4", "5"]);
   const handleAdd = () => {
     console.log("add");
@@ -20,12 +20,12 @@ function VirtualDOM() {
       <div>
         <ul>
           {list.map((item, index) => {
-            return <li>{item}</li>;
+            return <li key={index}>{item}</li>;
           })}
         </ul>
       </div>
     </div>
   );
-}
+};
 
 export default VirtualDOM;
