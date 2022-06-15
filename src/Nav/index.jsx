@@ -13,6 +13,9 @@ const Nav = () => {
       <Link to="key">
         <button>key</button>
       </Link>
+      <Link to="state">
+        <button>State</button>
+      </Link>
     </div>
   );
 };
