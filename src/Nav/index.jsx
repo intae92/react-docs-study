@@ -16,6 +16,9 @@ const Nav = () => {
       <Link to="state">
         <button>State</button>
       </Link>
+      <Link to="ref">
+        <button>Ref</button>
+      </Link>
     </div>
   );
 };
