@@ -19,6 +19,9 @@ const Nav = () => {
       <Link to="ref">
         <button>Ref</button>
       </Link>
+      <Link to="handlingEvents">
+        <button>HandlingEvents</button>
+      </Link>
     </div>
   );
 };
